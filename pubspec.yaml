@@ -1,0 +1,26 @@
+name: driver_app
+description: A driver tracking Flutter app.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  flutter_dotenv: ^5.0.2
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.1.1
+  flutter_background_service: ^5.1.0
+  geolocator: ^9.0.2
+  permission_handler: ^10.4.0
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
